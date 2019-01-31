@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Rust&Javascript&Tensorflow</title>
+  <script src="vendors/face-api.min.js"></script>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="vendors/materialize/materialize.min.css">
+  <script src="vendors/jquery.min.js"></script>
+  <script src="vendors/materialize/materialize.min.js"></script>
+</head>
+<body>
+
+      <div class="navbar-fixed">
+          <nav>
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo">脸部识别</a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="https://github.com/zhongwei/face">源码</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col s9">
+        <div style="position: relative" class="margin">
+          <video onloadedmetadata="onPlay(this)" id="inputVideo" autoplay muted></video>
+          <canvas id="overlay" />
+        </div>
+      </div>
+      <div class="col s3">
+        <img src="images/wechat.jpg" style="width: 60%"></img>
+        <img src="images/alipay.png" style="width: 60%"></img>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

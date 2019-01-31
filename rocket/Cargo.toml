@@ -1,0 +1,10 @@
+[package]
+name = "face"
+version = "0.1.0"
+authors = ["Zhong Wei <zhongwei99@163.com>"]
+edition = "2018"
+
+[dependencies]
+rust-embed="4.3.0"
+rocket = "0.4.0"
+open = "1.2"

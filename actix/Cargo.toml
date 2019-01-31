@@ -1,0 +1,13 @@
+[package]
+name = "face_actix"
+version = "0.1.0"
+authors = ["Zhong Wei <zhongwei99@163.com>"]
+edition = "2018"
+
+[dependencies]
+rust-embed="4.3.0"
+mime_guess = "2.0.0-alpha.6"
+open = "1.2"
+env_logger = "0.6.0"
+actix = "0.7.9"
+actix-web = "0.7.18"

@@ -1,0 +1,13 @@
+.margin {
+    margin: 20px;
+}
+
+#overlay, .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+#facesContainer canvas {
+    margin: 10px;
+}
